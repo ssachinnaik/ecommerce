@@ -17,7 +17,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
   }
 
   if (!email.includes("@") || !email.includes(".")) {
-    alert("Please enter a valid email address.(eg:example@gmail.com)");
+    alert("Please enter a valid email address.[eg:example@gmail.com]");
     return;
   }
 
